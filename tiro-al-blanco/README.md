@@ -67,7 +67,7 @@ estadísticos complementarios.
 
 ## 🚀 Clonar Repositorio
 ```bash
-git clone https://github.com/CodeWithIsmael/Tiro-al-blanco-ismael.git
+git clone https://github.com/Ismaelking01/Tiro-al-blanco-ismael.git
 ```
 
 ## 🛠️ Tecnologías
@@ -84,7 +84,7 @@ git clone https://github.com/CodeWithIsmael/Tiro-al-blanco-ismael.git
 5. Abre un Pull Request
 
 ## 👥 Autores
-- **Ismael Alvarez** - *Desarrollo Principal* - [CodeWithIsmael](https://github.com/Ismaelking01)
+- **Ismael Alvarez** - *Desarrollo Principal* - *Feria 2025* - [CodeWithIsmael](https://github.com/Ismaelking01)
 
 ## 📧 Contacto
 Para preguntas y soporte, por favor contacta a:
