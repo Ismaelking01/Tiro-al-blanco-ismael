@@ -1,0 +1,162 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #333;
+}
+
+H1{
+    width: 95%;
+    height: 40px;
+    background-color: aqua;
+    margin: 5px;
+    text-align: center;
+    align-content: center;
+    border-radius: 40%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    background-color: rgb(233, 204, 166);
+    border: 2px solid green;
+    font-size: 20px;
+}
+.menu{
+    width: 95%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5% 20% 5% 20%;
+}
+
+select {
+    text-align: center; 
+    text-align-last: center;
+    height: 40px;
+    width: 105px;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+input{
+    height: 20px;
+    width: 40px;
+    font-size: 20px;
+}
+#lanzamientos{
+    margin-right: 100px ;
+}
+label{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+p{
+    font-size: 25px;
+    margin:10px;
+}
+
+section{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+    width: 98%;
+    border:15px solid rgb(247, 222, 5);
+    margin:5px;
+    border-radius: 3%;
+    
+}
+
+
+#projectile{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    cursor:pointer;
+    border:1px solid white;
+}
+.projectile{
+    display: flex;
+    height: 80vh;
+    flex-direction: row;
+    align-items: center;
+}
+
+.medidas{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.medidas p{
+    color:aliceblue;
+    font-size: 20px;
+}
+
+
+canvas{
+    margin-bottom: 80px;
+}
+/* Contenedor de la diana*/
+.target {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+}
+
+/* Círculo exterior */
+.circle1 {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Segundo círculo */
+.circle2 {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-color: rgba(0, 128, 255, 0.4);
+}
+
+/* Tercer círculo */
+.circle3 {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+/* Centro */
+.center {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 0, 0.8);
+}
+
+.punto {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiro al Blanco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>TIRO AL BLANCO</h1>
+
+    <div class="menu">
+
+        <a href="https://github.com/CodeWithIsmael/Tiro-al-blanco-ismael.git">DOCUMENTACION</a>
+
+        <p id="score"></p>
+        <div>
+            <label for="signo">Signo</label>
+                <select name="signo" id="signo">
+                    <option value="igual">P[X = x]</option>
+                    <option value="menor_igual">P[X <= x]</option>
+                    <option value="mayor_igual">P[X >= x]</option>
+                    <option value="menor">P[X < x]</option>
+                    <option value="mayor">P[X > x]</option>
+                </select>
+            <label for="lanzamientos">Lanzamientos</label>
+            <input id="lanzamientos" type="number">
+          
+            <label for="exitos">Éxitos</label>
+            <input id="exitos" type="number">
+        </div>    
+        <p id="probabilidad"></p>
+
+    </div>
+
+    <section>
+        
+        <div class="target">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <div class="circle3"></div>
+            <div class="center"></div>
+            <div class="punto"></div>
+        </div>
+
+        <div class="projectile">
+            <div id="projectile" draggable="true"></div>
+        </div>
+
+        <div class="medidas">
+            <canvas id="binomialChart" width="300" height="400"></canvas>
+            <p id="media"></p>
+            <p id="varianza"></p>
+            <p id="desviacion"></p>
+        </div>
+        
+    </section>
+    
+    <Script src="control.js"></Script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</body>
+</html>
